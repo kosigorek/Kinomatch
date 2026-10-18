@@ -1,0 +1,8 @@
+.text--muted {
+  color: var(--muted);
+}
+
+.text--center {
+  font-size: 13px;
+  text-align: center;
+}

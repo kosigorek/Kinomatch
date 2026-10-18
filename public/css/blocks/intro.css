@@ -1,0 +1,8 @@
+.intro__title {
+  margin: 6px 0 4px;
+  font-size: 26px;
+}
+
+.intro__text {
+  color: var(--muted);
+}

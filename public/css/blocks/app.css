@@ -1,0 +1,9 @@
+.app {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 18px 16px 28px;
+}
+
+.app__version {
+  margin-top: 24px;
+}

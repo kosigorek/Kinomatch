@@ -1,0 +1,16 @@
+/* Точка входу стилів: змінні та база, далі BEM-блоки (по одному файлу на блок). */
+@import url('base.css');
+@import url('blocks/app.css');
+@import url('blocks/screen.css');
+@import url('blocks/intro.css');
+@import url('blocks/text.css');
+@import url('blocks/panel.css');
+@import url('blocks/form.css');
+@import url('blocks/button.css');
+@import url('blocks/topbar.css');
+@import url('blocks/genres.css');
+@import url('blocks/genre-chip.css');
+@import url('blocks/deck.css');
+@import url('blocks/card.css');
+@import url('blocks/invite.css');
+@import url('blocks/ranking.css');

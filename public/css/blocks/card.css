@@ -1,0 +1,74 @@
+.card {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 22px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 22%);
+  color: #fff;
+  user-select: none;
+  touch-action: none;
+  transition:
+    transform 0.25s,
+    opacity 0.25s;
+}
+
+.card--next {
+  transform: scale(0.95) translateY(10px);
+}
+
+.card__emoji {
+  position: absolute;
+  inset: 16% 0 auto;
+  font-size: 96px;
+  text-align: center;
+}
+
+.card__stamp {
+  position: absolute;
+  top: 22px;
+  padding: 4px 12px;
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  opacity: 0;
+}
+
+.card__stamp--yes {
+  left: 20px;
+  border-color: #5dffb0;
+  color: #5dffb0;
+  transform: rotate(-12deg);
+}
+
+.card__stamp--no {
+  right: 20px;
+  border-color: #ff8a9a;
+  color: #ff8a9a;
+  transform: rotate(12deg);
+}
+
+.card__info {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 70px 18px 18px;
+  background: linear-gradient(transparent, rgb(0 0 0 / 85%));
+}
+
+.card__title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.card__year {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card__text {
+  margin: 6px 0 0;
+  font-size: 14px;
+  opacity: 0.95;
+}

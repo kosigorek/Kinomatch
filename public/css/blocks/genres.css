@@ -1,0 +1,9 @@
+.genres__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.genres__actions {
+  margin-top: 16px;
+}

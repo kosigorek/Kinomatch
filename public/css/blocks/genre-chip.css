@@ -1,0 +1,25 @@
+.genre-chip {
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.genre-chip__count {
+  color: var(--muted);
+}
+
+.genre-chip--active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+.genre-chip--active .genre-chip__count {
+  color: #fff;
+  opacity: 0.8;
+}

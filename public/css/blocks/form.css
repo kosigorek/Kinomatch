@@ -1,0 +1,36 @@
+.form__label {
+  display: block;
+}
+
+.form__input {
+  width: 100%;
+  margin: 6px 0 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.form__input--code {
+  text-transform: uppercase;
+}
+
+.form__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.form__actions > * {
+  flex: 1;
+}
+
+.form__error {
+  margin: 10px 0 0;
+  color: var(--accent);
+}
+
+.form__error--hidden {
+  display: none;
+}

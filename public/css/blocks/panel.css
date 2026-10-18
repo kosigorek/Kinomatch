@@ -1,0 +1,12 @@
+.panel {
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.panel__title {
+  margin: 0 0 8px;
+  font-size: 20px;
+}

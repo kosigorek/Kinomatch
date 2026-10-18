@@ -1,0 +1,222 @@
+[
+  {
+    "id": "l0",
+    "title": "Початок",
+    "year": "2010",
+    "genres": "Фантастика, Трилер",
+    "overview": "Злодії крадуть ідеї прямо зі снів.",
+    "emoji": "🌀",
+    "gradient": "#3b4cca,#1b1f4b",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l1",
+    "title": "Інтерстеллар",
+    "year": "2014",
+    "genres": "Фантастика, Драма",
+    "overview": "Подорож крізь червоточину заради порятунку людства.",
+    "emoji": "🚀",
+    "gradient": "#0f2027,#2c5364",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l2",
+    "title": "Паразити",
+    "year": "2019",
+    "genres": "Трилер, Комедія",
+    "overview": "Бідна родина проникає в життя багатіїв.",
+    "emoji": "🪜",
+    "gradient": "#2d6a4f,#081c15",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l3",
+    "title": "Готель «Гранд Будапешт»",
+    "year": "2014",
+    "genres": "Комедія, Пригоди",
+    "overview": "Хаос, пастельні кольори та легендарний консьєрж.",
+    "emoji": "🏨",
+    "gradient": "#f78fb3,#c44569",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l4",
+    "title": "Джон Вік",
+    "year": "2014",
+    "genres": "Бойовик",
+    "overview": "Кулі, пес і дуже поганий день для мафії.",
+    "emoji": "🔫",
+    "gradient": "#434343,#000000",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l5",
+    "title": "Дюна",
+    "year": "2021",
+    "genres": "Фантастика",
+    "overview": "Пустельна планета, спайс і велика доля.",
+    "emoji": "🏜️",
+    "gradient": "#e09f3e,#9e2a2b",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l6",
+    "title": "Ла-Ла Ленд",
+    "year": "2016",
+    "genres": "Мюзикл, Мелодрама",
+    "overview": "Джаз, мрії та кохання в Лос-Анджелесі.",
+    "emoji": "🎹",
+    "gradient": "#7f5af0,#2cb1bc",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l7",
+    "title": "Форрест Гамп",
+    "year": "1994",
+    "genres": "Драма, Комедія",
+    "overview": "Життя як коробка цукерок.",
+    "emoji": "🍫",
+    "gradient": "#4facfe,#00549f",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l8",
+    "title": "Матриця",
+    "year": "1999",
+    "genres": "Фантастика, Бойовик",
+    "overview": "Червона чи синя пігулка?",
+    "emoji": "💊",
+    "gradient": "#0f9b0f,#001a00",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l9",
+    "title": "Мисливці за привидами",
+    "year": "1984",
+    "genres": "Комедія, Фантастика",
+    "overview": "Хто викликає привидів? Саме вони.",
+    "emoji": "👻",
+    "gradient": "#8e9eab,#3a4750",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l10",
+    "title": "Шрек",
+    "year": "2001",
+    "genres": "Анімація, Комедія",
+    "overview": "Огр, віслюк і зовсім не казкова казка.",
+    "emoji": "🧅",
+    "gradient": "#a8e063,#56ab2f",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l11",
+    "title": "Володар перснів: Братство персня",
+    "year": "2001",
+    "genres": "Фентезі, Пригоди",
+    "overview": "Один перстень, дев’ятеро супутників.",
+    "emoji": "💍",
+    "gradient": "#b8860b,#2f1b0c",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l12",
+    "title": "Один вдома",
+    "year": "1990",
+    "genres": "Сімейний, Комедія",
+    "overview": "Різдвяна класика для всієї компанії.",
+    "emoji": "🏠",
+    "gradient": "#d62828,#6a040f",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l13",
+    "title": "Фіналіст",
+    "year": "2014",
+    "genres": "Трилер",
+    "overview": "Зникла дружина, а підозрюваний — чоловік.",
+    "emoji": "🔍",
+    "gradient": "#232526,#414345",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l14",
+    "title": "Скажений Макс: Дорога гніву",
+    "year": "2015",
+    "genres": "Бойовик",
+    "overview": "Дві години безперервної погоні пустелею.",
+    "emoji": "🔥",
+    "gradient": "#ff9a00,#7a1f00",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l15",
+    "title": "Зоряні війни: Нова надія",
+    "year": "1977",
+    "genres": "Фантастика",
+    "overview": "Початок великої космічної саги.",
+    "emoji": "⚔️",
+    "gradient": "#141e30,#243b55",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l16",
+    "title": "Втеча з Шоушенка",
+    "year": "1994",
+    "genres": "Драма",
+    "overview": "Надія — це добра річ.",
+    "emoji": "⛓️",
+    "gradient": "#5f7a8a,#243040",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l17",
+    "title": "Назад у майбутнє",
+    "year": "1985",
+    "genres": "Фантастика, Комедія",
+    "overview": "Машина часу з DeLorean.",
+    "emoji": "⏱️",
+    "gradient": "#ff6a00,#ee0979",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l18",
+    "title": "Зелена миля",
+    "year": "1999",
+    "genres": "Драма, Фентезі",
+    "overview": "Дивовижний в’язень у блоці смертників.",
+    "emoji": "🟢",
+    "gradient": "#52796f,#1b3a35",
+    "poster": null,
+    "rating": null
+  },
+  {
+    "id": "l19",
+    "title": "Хижак",
+    "year": "1987",
+    "genres": "Бойовик, Фантастика",
+    "overview": "Спецзагін проти невидимого мисливця в джунглях.",
+    "emoji": "👽",
+    "gradient": "#355c3a,#0b1f0e",
+    "poster": null,
+    "rating": null
+  }
+]

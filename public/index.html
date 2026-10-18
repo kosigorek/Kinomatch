@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>КіноМатч</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8D%BF%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css?v=5" />
+  </head>
+  <body>
+    <main class="app">
+      <section id="join" class="screen">
+        <h1 class="intro__title">🍿 КіноМатч</h1>
+        <p class="intro__text">
+          Свайпайте фільми разом із друзями — і дізнайтесь, що дивитись сьогодні ввечері.
+        </p>
+        <div class="panel form">
+          <label class="form__label" for="name">Ваше ім’я</label>
+          <input id="name" class="form__input" maxlength="20" placeholder="Наприклад, Олена" />
+          <label class="form__label" for="code">
+            Код кімнати <span class="text text--muted">(отримали від друга)</span>
+          </label>
+          <input
+            id="code"
+            class="form__input form__input--code"
+            maxlength="6"
+            placeholder="ABC12"
+          />
+          <div class="form__actions">
+            <button id="enter" class="button">Увійти</button>
+            <button id="create" class="button button--ghost">Нова кімната</button>
+          </div>
+          <p id="err" class="form__error form__error--hidden"></p>
+        </div>
+      </section>
+
+      <section id="genres" class="screen screen--hidden">
+        <h1 class="intro__title">Оберіть жанри</h1>
+        <p class="intro__text">Фільми для свайпів підберуться під ці жанри. Можна обрати кілька.</p>
+        <div class="panel genres">
+          <div id="chips" class="genres__list">Завантажую жанри…</div>
+          <div class="form__actions genres__actions">
+            <button id="makeRoom" class="button">Створити: будь-які жанри</button>
+            <button id="genBack" class="button button--ghost">Назад</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="play" class="screen screen--hidden">
+        <div class="topbar">
+          <span class="topbar__room"></span>
+          <button id="toRes" class="button button--ghost button--small">Результати</button>
+        </div>
+        <div id="stack" class="deck"></div>
+        <div class="deck__controls">
+          <button id="no" class="button button--round" aria-label="Пас">✖️</button>
+          <button id="yes" class="button button--round" aria-label="Хочу">❤️</button>
+        </div>
+        <p id="left" class="deck__counter"></p>
+      </section>
+
+      <section id="results" class="screen screen--hidden">
+        <div class="topbar">
+          <span class="topbar__room"></span>
+          <button id="back" class="button button--ghost button--small">До свайпів</button>
+        </div>
+        <div class="panel invite">
+          <div class="invite__label">Код кімнати — поділіться з друзями</div>
+          <div id="bigCode" class="invite__code"></div>
+          <button id="copy" class="button button--ghost button--block">Скопіювати посилання</button>
+        </div>
+        <div class="panel ranking">
+          <h2 class="panel__title">Рейтинг вечора</h2>
+          <div id="gen" class="ranking__genres"></div>
+          <div id="who" class="ranking__people"></div>
+          <div id="list"></div>
+        </div>
+      </section>
+
+      <p class="app__version text text--muted text--center">v5</p>
+    </main>
+    <script src="app.js?v=5"></script>
+  </body>
+</html>

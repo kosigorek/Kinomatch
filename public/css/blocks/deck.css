@@ -1,0 +1,23 @@
+.deck {
+  position: relative;
+  height: min(62vh, 480px);
+  margin-top: 14px;
+}
+
+.deck__done {
+  margin: 0;
+  text-align: center;
+}
+
+.deck__controls {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 16px;
+}
+
+.deck__counter {
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}

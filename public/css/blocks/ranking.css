@@ -1,0 +1,63 @@
+.ranking__genres {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.ranking__people {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.ranking__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.ranking__item:last-child {
+  border-bottom: 0;
+}
+
+.ranking__poster {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 46px;
+  height: 62px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  font-size: 24px;
+}
+
+.ranking__body {
+  flex: 1;
+}
+
+.ranking__match {
+  color: var(--ok);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ranking__bar {
+  height: 6px;
+  margin-top: 5px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--line);
+}
+
+.ranking__bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+
+.ranking__votes {
+  color: var(--muted);
+}
